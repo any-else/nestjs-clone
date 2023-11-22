@@ -1,0 +1,36 @@
+import { Cart } from './Cart.entity';
+import { Booking } from './Booking.entity';
+import { Blog } from './Blog.entity';
+export declare class User {
+    _id: number;
+    name: string;
+    gender: string;
+    birthday: Date;
+    email: string;
+    phone: string;
+    address: string;
+    role: string;
+    photo: string;
+    active: boolean;
+    password: string;
+    passwordChangeAt: Date;
+    passwordResetToken: string;
+    passwordResetExpire: Date;
+    googleId: string;
+    otp: string;
+    otpExpire: Date;
+    otpChangeAt: Date;
+    verified: boolean;
+    emailToken: string;
+    mailTokenExpire: Date;
+    createdAt: Date;
+    cart: Cart;
+    bookings: Booking[];
+    blogs: Blog[];
+    private isPasswordChanged;
+    hashPasswordBeforeSave(): Promise<void>;
+    hashPassword(): Promise<void>;
+    setPassword(password: string): void;
+    changedPasswordAfter(JWTTimestamp: number): boolean;
+    createPasswordResetToken(): string;
+}

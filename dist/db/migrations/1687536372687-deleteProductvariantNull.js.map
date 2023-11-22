@@ -1,0 +1,1 @@
+{"version":3,"file":"1687536372687-deleteProductvariantNull.js","sourceRoot":"","sources":["../../../db/migrations/1687536372687-deleteProductvariantNull.ts"],"names":[],"mappings":";;;AAEA,MAAa,qCAAqC;IAGzC,KAAK,CAAC,EAAE,CAAC,WAAwB;QACtC,MAAM,WAAW,CAAC,KAAK,CAAC;;SAEnB,CAAC,CAAC;IACT,CAAC;IAEM,KAAK,CAAC,IAAI,CAAC,WAAwB,IAAkB,CAAC;CAC9D;AAVD,sFAUC"}
